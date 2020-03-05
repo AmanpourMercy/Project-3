@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="UTF-8"/>
+  <title>Дизайн-бюро «Комбо-дизайн»</title>
+</head>
+<body>
+<header class="header">
+  <div class="container container_header">
+    <span class="text-logo_header">IC "Repair Design Project"</span>
+    <input type="checkbox" title="" id="check-mobile"/>
+    <label for="check-mobile" class="label-check-mobile"></label>
+    <nav class="nav-menu_header">
+      <label for="check-mobile" class="label-check-nav">+</label>
+      <ul class="menu_header">
+        <li class="item_menu-header">
+          <a href="#">home</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">projects</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">measurement</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">team</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">reviews</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="box-phone_header">
+      <span class="number-phone_header">+7 (928) 768-32-39</span>
+      <button type="button" class="button-header">Request a call</button>
+    </div>
+  </div>
+</header>
+<main class="content-sidebar">
+  <section class="section-preview">
+    <div class="container container_section-preview">
+      <h1 class="title_section-preview">Turnkey Repair in the <br/> city of <span
+        class="title-text-color">Rostov-on-Don</span></h1>
+      <p class="text_section-preview">Get ready-made turnkey repairs on time<br/> with work time saving up to 45 days
+        and 20% from<br/> cost of
+        materials due to the organization of work</p>
+      <div class="box-button_section-preview">
+        <button type="button" class="button-calculate">calculate the cost</button>
+        <button type="button" class="button-application">submit your application</button>
+      </div>
+    </div>
+  </section>
+  <section class="section-slider">
+    <div class="container container_section-slider">
+      <ul class="menu-slider">
+        <li class="item_menu-slider current" onclick="slideOne()">Rostov-on-Don, Admiral</li>
+        <li class="item_menu-slider" onclick="slideTwo()">Sochi Thieves</li>
+        <li class="item_menu-slider" onclick="slideTree()">Rostov-on-Don Patriotic</li>
+      </ul>
+      <div class="slider-wrap" id="slider-wrap">
+        <div class="container-slider active" id="slide-1">
+          <div class="slider-content">
+            <h2 class="title-text_slider-content">Completed <br/>projects</h2>
+            <p class="text_slider-content">Only a small part of the work performed by our company is presented <br/>on
+              the
+              site. For 14 years on in the construction <br/> market we have made happy more than 1000 families</p>
+            <div class="box-info_slider-content">
+              <div class="item_box-info__slider-content">
+                <h3>City:</h3>
+                <span>Rostov-on-Don <br/>LCD admiral</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>apartment area:</h3>
+                <span>81 m2</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair time:</h3>
+                <span>3.5 months</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair Cost:</h3>
+                <span>Upon request</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="img/img-1.jpg" class="image_slider-img" alt="slider image" title=""/>
+          </div>
+        </div>
+        <div class="container-slider" id="slide-2">
+          <div class="slider-content">
+            <h2 class="title-text_slider-content">Completed <br/>projects</h2>
+            <p class="text_slider-content">Only a small part of the work performed by our company is presented <br/>on
+              the
+              site. For 14 years on in the construction <br/> market we have made happy more than 1000 families</p>
+            <div class="box-info_slider-content">
+              <div class="item_box-info__slider-content">
+                <h3>City:</h3>
+                <span>Sochi <br/>Thieves</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>apartment area:</h3>
+                <span>105 m2</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair time:</h3>
+                <span>4 months</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair Cost:</h3>
+                <span>Upon request</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="img/img-7.jpg" class="image_slider-img" alt="slider image" title=""/>
+          </div>
+        </div>
+        <div class="container-slider" id="slide-3">
+          <div class="slider-content">
+            <h2 class="title-text_slider-content">Completed <br/>projects</h2>
+            <p class="text_slider-content">Only a small part of the work performed by our company is presented <br/>on
+              the
+              site. For 14 years on in the construction <br/> market we have made happy more than 1000 families</p>
+            <div class="box-info_slider-content">
+              <div class="item_box-info__slider-content">
+                <h3>City:</h3>
+                <span>Rostov-on-Don <br/>Patriotic</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>apartment area:</h3>
+                <span>93 m2</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair time:</h3>
+                <span>3 months</span>
+              </div>
+              <div class="item_box-info__slider-content">
+                <h3>Repair Cost:</h3>
+                <span>Upon request</span>
+              </div>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="img/img-8.jpg" class="image_slider-img" alt="slider image" title=""/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-pagination">
+      <img src="img/icons/arrow-left.svg" class="arrow-left" id="arrow-left" alt="icon" title=""/>
+      <span class="item-pagination active" onclick="slideOne()"></span>
+      <span class="item-pagination" onclick="slideTwo()"></span>
+      <span class="item-pagination" onclick="slideTree()"></span>
+      <img src="img/icons/arrow-right.svg" class="arrow-right" id="arrow-right" alt="icon" title=""/>
+    </div>
+  </section>
+  <section class="section-online-control">
+    <div class="container container_section-control">
+      <h3 class="title-text_section-control">online control</h3>
+      <img src="img/icons/cam.svg" class="icon-control" alt="icon" title=""/>
+      <div class="box-img-preview">
+        <img src="img/img-2.jpg" class="img-preview" alt="preview image" title=""/>
+        <img src="img/icons/play.svg" class="play-img" alt="icon" title=""/>
+      </div>
+      <hr class="line"/>
+      <p class="text_section-control">At each facility, a camera is installed that broadcasts the progress of work on
+        the clock. At any time, you can
+        go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one
+        of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
+      <form class="form_section-control">
+        <div class="box-input_form">
+          <label class="label-form">Name
+            <input type="text" class="input_label-form" placeholder="What is your name:" title="" required="required"/>
+          </label>
+          <label class="label-form">Phone
+            <input type="text" class="input_label-form" placeholder="Your phone number:" title="" required="required"/>
+          </label>
+          <input type="submit" class="input-submit_form" value="submit"/>
+        </div>
+        <div class="box-label_form">
+          <input type="checkbox" id="check" title="" checked="checked"/>
+          <label for="check" class="label-check_form">I agree to the processing of personal data</label>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="section-types-repair">
+    <div class="container container_section-types-repair">
+      <h3 class="title-text_section-types-repair">types of repair</h3>
+      <img src="img/icons/repair.svg" class="icon-repair" alt="icon" title=""/>
+      <div class="box-types-repair">
+        <div class="item_types-repair">
+          <div class="box-img_types-repair">
+            <img src="img/img-3.jpg" class="img_types-repair" alt="image types repair" title=""/>
+          </div>
+          <div class="box-price_types-repair">
+            <h4 class="title-box-price_types-repair">Redecorating</h4>
+            <ul class="box-list-price_types-repair">
+              <li class="item_list-price__types-repair">Dismantling of old coatings</li>
+              <li class="item_list-price__types-repair">Wallpapering</li>
+              <li class="item_list-price__types-repair">Painting walls and ceilings</li>
+              <li class="item_list-price__types-repair">Laying flooring</li>
+              <li class="item_list-price__types-repair">Replacing plumbing</li>
+              <li class="item_list-price__types-repair">Replacing sockets and switches</li>
+              <li class="item_list-price__types-repair">Replacing doors</li>
+            </ul>
+            <a href="#" class="button_list-price__types-repair">from 900 rub / m2</a>
+          </div>
+        </div>
+        <div class="item_types-repair">
+          <div class="box-img_types-repair">
+            <img src="img/img-4.jpg" class="img_types-repair" alt="image types repair" title=""/>
+          </div>
+          <div class="box-price_types-repair">
+            <h4 class="title-box-price_types-repair">Overhaul</h4>
+            <ul class="box-list-price_types-repair">
+              <li class="item_list-price__types-repair">Dismantling of old coatings</li>
+              <li class="item_list-price__types-repair">Wallpapering</li>
+              <li class="item_list-price__types-repair">Painting walls and ceilings</li>
+              <li class="item_list-price__types-repair">Laying flooring</li>
+              <li class="item_list-price__types-repair">Replacing plumbing</li>
+              <li class="item_list-price__types-repair">Replacing sockets and switches</li>
+              <li class="item_list-price__types-repair">Replacing doors</li>
+            </ul>
+            <a href="#" class="button_list-price__types-repair">from 1800 rub / m2</a>
+          </div>
+        </div>
+        <div class="item_types-repair">
+          <div class="box-img_types-repair">
+            <img src="img/img-5.jpg" class="img_types-repair" alt="image types repair" title=""/>
+          </div>
+          <div class="box-price_types-repair">
+            <h4 class="title-box-price_types-repair">Designer Repair</h4>
+            <ul class="box-list-price_types-repair">
+              <li class="item_list-price__types-repair">Dismantling of old coatings</li>
+              <li class="item_list-price__types-repair">Wallpapering</li>
+              <li class="item_list-price__types-repair">Painting walls and ceilings</li>
+              <li class="item_list-price__types-repair">Laying flooring</li>
+              <li class="item_list-price__types-repair">Replacing plumbing</li>
+              <li class="item_list-price__types-repair">Replacing sockets and switches</li>
+              <li class="item_list-price__types-repair">Replacing doors</li>
+            </ul>
+            <a href="#" class="button_list-price__types-repair">from 4000 rub / m2</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-request">
+        <div class="box-advantages_request">
+          <div class="list-advantages_request">
+            <div class="box-advantage_request">
+              <span>01</span>
+              <p>Our specialist will arrive for measurements per day <br/>contact, or appoint a date convenient for you
+              </p>
+            </div>
+            <div class="box-advantage_request">
+              <span>02</span>
+              <p>Free metering</p>
+            </div>
+            <div class="box-advantage_request">
+              <span>03</span>
+              <p>Free consultation</p>
+            </div>
+            <div class="box-advantage_request">
+              <span>04</span>
+              <p>Get a cost estimate and <br/>the timing of your future repairs</p>
+            </div>
+          </div>
+        </div>
+        <form class="form-request">
+          <h4 class="title_form-request">Leave a request for free<br/> departure of the measurer</h4>
+          <label class="label_form-request">Name
+            <input type="text" class="input__form-request" placeholder="What is your name:" title=""
+                   required="required"/>
+          </label>
+          <label class="label_form-request">Phone
+            <input type="text" class="input__form-request" placeholder="Your phone number:" title=""
+                   required="required"/>
+          </label>
+          <label class="label_form-request">Email
+            <input type="text" class="input__form-request" placeholder="Your email" title="" required="required"/>
+          </label>
+          <div class="box-personal-data_form-request">
+            <input type="checkbox" title="" id="check-2" checked="checked" required="required"/>
+            <label for="check-2" class="label_box-personal-data__form-request">I agree to the processing of personal
+              data</label>
+          </div>
+          <input type="submit" class="input_form-request" value="Call the measurer"/>
+        </form>
+        <div class="box-icon-help-save">
+          <div class="icon-help-save">
+            <img src="img/icons/group.svg" alt="icon" title=""/>
+          </div>
+          <p>Help save 10 - 20% of the <br/>cost of materials</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-our-clients">
+    <div class="container container_section-our-clients">
+      <h3 class="title_section-our-clients">our clients</h3>
+      <img src="img/icons/icon.svg" class="icon-repair" alt="icon" title=""/>
+      <p class="text_section-our-clients">80% of our customers recommend us to their <br/>friends and family.</p>
+      <div class="box-our-clients">
+        <div class="box-client">
+          <div class="box-name-client">
+            <div class="box-photo-client">
+              <img src="img/clients/img-1.jpg" class="photo-client" alt="photo client"
+                   title="Fedosova Maria Konstantinovna"/>
+            </div>
+            <p class="name-client">Fedosova Maria Konstantinovna</p>
+          </div>
+          <p class="feedback">I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY
+            grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS
+            PROFESSIONALISM AND APPROACH. THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM
+            MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES
+            DEMOCRATIC. I RECOMMEND THESE MASTERS.</p>
+          <div class="box-info-order">
+            <div class="info-order">
+              <img src="img/icons/icon-2.svg" alt="icon" title=""/>
+              <span>40 m2</span>
+            </div>
+            <div class="info-order">
+              <img src="img/icons/icon-3.svg" alt="icon" title=""/>
+              <span>48 DAYS</span>
+            </div>
+          </div>
+        </div>
+        <div class="box-client">
+          <div class="box-name-client">
+            <div class="box-photo-client">
+              <img src="img/clients/img-2.jpg" class="photo-client" alt="photo client"
+                   title="Afanasyev Sergey Alexandrovich"/>
+            </div>
+            <p class="name-client">Afanasyev Sergey Alexandrovich</p>
+          </div>
+          <p class="feedback">I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY
+            grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS
+            PROFESSIONALISM AND APPROACH. THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM
+            MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES
+            DEMOCRATIC. I RECOMMEND THESE MASTERS.</p>
+          <div class="box-info-order">
+            <div class="info-order">
+              <img src="img/icons/icon-2.svg" alt="icon" title=""/>
+              <span>40 m2</span>
+            </div>
+            <div class="info-order">
+              <img src="img/icons/icon-3.svg" alt="icon" title=""/>
+              <span>48 DAYS</span>
+            </div>
+          </div>
+        </div>
+        <div class="box-client">
+          <div class="box-name-client">
+            <div class="box-photo-client">
+              <img src="img/clients/img-3.jpg" class="photo-client" alt="photo client" title="Kiriev Egor Leonidovich"/>
+            </div>
+            <p class="name-client">Kiriev Egor Leonidovich</p>
+          </div>
+          <p class="feedback">I want to thank the guys for their work. WE PUT YOUR SHOWER PART IN REPAIR. I am VERY
+            grateful that I referred to the repair as to my own. GREAT THANKS I EXPRESS THE PROJECT TO GEORGIA FOR ITS
+            PROFESSIONALISM AND APPROACH. THE REPAIR PROCESS WAS TURNED OUT IN TERMS, FASTER THAN ANTICIPATED. TEAM
+            MOBILE AND PROFESSIONAL. WORKS PERFORMED QUALITATIVELY WITHOUT COMMENTS. QUALITY SATISFIED. PRICES
+            DEMOCRATIC. I RECOMMEND THESE MASTERS.</p>
+          <div class="box-info-order">
+            <div class="info-order">
+              <img src="img/icons/icon-2.svg" alt="icon" title=""/>
+              <span>40 m2</span>
+            </div>
+            <div class="info-order">
+              <img src="img/icons/icon-3.svg" alt="icon" title=""/>
+              <span>48 DAYS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-contacts">
+    <div class="container container_section-contacts">
+      <form class="form-questions">
+        <h4 class="title_form-questions">have any questions?</h4>
+        <div class="box-inputs_form-questions">
+          <label class="label_form-questions">Name
+            <input type="text" placeholder="What is your name:" required="required" title=""/>
+          </label>
+          <label class="label_form-questions">Phone
+            <input type="text" placeholder="Your phone number:" required="required" title=""/>
+          </label>
+        </div>
+        <label class="label_form-questions">Question
+          <input type="text" placeholder="I want to know:" required="required" title=""/>
+        </label>
+        <div class="box-check-label_form-questions">
+          <input type="checkbox" id="check-3" title="" checked="checked" required="required"/>
+          <label for="check-3" class="check-label_form-questions">I agree to the processing of personal data</label>
+        </div>
+        <input type="submit" class="submit_form-questions" value="Submit"/>
+      </form>
+      <h4 class="title_section-contacts">Rostov-on-Don, Nansen St., 239 Shopping Center <br/>Decorum Tel +7 (928) 768 32
+        29</h4>
+      <div class="box-socicon">
+        <a href="#">
+          <img src="img/icons/icon-4.svg" alt="icon" title=""/>
+        </a>
+        <a href="#">
+          <img src="img/icons/icon-5.svg" alt="icon" title=""/>
+        </a>
+      </div>
+      <img src="img/map.jpg" class="img-map" alt="map" title=""/>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container container_header">
+    <span class="text-logo_header">IC "Repair Design Project"</span>
+    <nav class="nav-menu_header nav-menu_footer">
+      <ul class="menu_header">
+        <li class="item_menu-header">
+          <a href="#">home</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">projects</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">measurement</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">team</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">reviews</a>
+        </li>
+        <li class="item_menu-header">
+          <a href="#">contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="box-phone_header">
+      <span class="number-phone_header">+7 (928) 768-32-39</span>
+      <button type="button" class="button-header">Request a call</button>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
